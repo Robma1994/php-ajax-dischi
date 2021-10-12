@@ -14,6 +14,9 @@
     <title>Php ajax dischi</title>
 </head>
 <body>
+    <div class="header">
+        
+    </div>
     <div class="box-fluid">
         <div class="box">
             <?php 
@@ -26,10 +29,10 @@
                                 .'</div>'
                                 .'<div class= "box-vinyl-bottom" >'
                                     .'<h1>' .$vinyl['title'] .'</h1>'
-                                    .'<p>' .$vinyl['genre'] .'</p>'
+                                    .'<p>' .$vinyl['author'] .'</p>'
                                     .'<p>' .$vinyl['year'] .'</p>'
                                 .'</div>'
-                        
+                    
                         .'</div>' ;   
                 }
             ?>
