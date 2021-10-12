@@ -43,3 +43,20 @@
     padding-bottom: 4px;
 }
 
+/*Media Query*/
+@media screen and (max-width: 1200px ){
+    .box-vinyl {
+        flex-basis: calc(100% / 15 * 5 - 30px);
+    }
+    .box-fluid {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 720px ){
+    .box-vinyl {
+        flex-basis: calc(100% / 16 * 8 - 30px);
+    }
+    .box-fluid {
+        height: 100%;
+    }
+}
