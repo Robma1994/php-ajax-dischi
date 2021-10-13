@@ -37,7 +37,6 @@
                 }
             ?>
         </div>
-        <img src="" alt="">
     </div>
 </body>
 </html>
