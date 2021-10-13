@@ -17,7 +17,7 @@
             <div class="box">
                 <div class="box-vinyl" v-for="(vinyl,index) in vinyls" :key="index">
                         <div class= "box-vinyl-top" >
-                            <img :src="`${vinyl.poster}`">
+                            <img :src="vinyl.poster">
                         </div>
                         <div class= "box-vinyl-bottom" >
                             <h1>{{vinyl.title}}</h1>
